@@ -29,7 +29,7 @@ def random_guess():
         i += 1
         user_guess = int(input(Fore.BLUE + 'Guess a number: '))
         if user_guess == ran_choose:
-            print(Fore.CYAN + 'Bravoo!!')
+            print(Fore.CYAN + 'Excellent!!')
             print(Fore.MAGENTA + f'Congratulations! You did it in {i - 1} try.' + Fore.RESET)
             play_congratulations()
             break
