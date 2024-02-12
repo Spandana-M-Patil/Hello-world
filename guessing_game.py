@@ -35,7 +35,7 @@ def random_guess():
             break
         elif user_guess < ran_choose:
             if i > 5:
-                print(Fore.GREEN + 'Sorry! You have no more chance left.')
+                print(Fore.GREEN + 'Sorry! Your chances are over.')
                 print(Fore.MAGENTA + f'Number is: {ran_choose}')
                 break
             else:
