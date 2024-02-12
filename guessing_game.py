@@ -23,7 +23,7 @@ def random_guess():
     t = int(input('Enter higher bound: '))
     ran_choose = random.choice(range(f, t))
     # print(ran_choose)
-    print('Note: You have only 5 chances to guess!!')
+    print('Note: You have only 5 chances to guess.All the best!!')
     i = 1
     while True:
         i += 1
